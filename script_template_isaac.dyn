@@ -1,0 +1,284 @@
+{
+  "Uuid": "a72379a1-5585-4204-bbb8-b3f5b98cc30c",
+  "IsCustomNode": false,
+  "Description": null,
+  "Name": "script_template_isaac",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.3.2.15696",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [],
+    "Annotations": [
+      {
+        "Id": "f744541392554868a063d1e3c7c50475",
+        "Title": "Notes/Guide",
+        "Nodes": [
+          "c5fcb5fb480a4fef91980b7bbe9774c1"
+        ],
+        "Left": 618.4197455103747,
+        "Top": 163.250812801061,
+        "Width": 318.86792452830184,
+        "Height": 457.43396226415092,
+        "FontSize": 36.0,
+        "InitialTop": 216.72251091426853,
+        "InitialHeight": 433.96226415094338,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "2133269d78cd4f67a5274ee2c51320d0",
+        "Title": "Script info",
+        "Nodes": [
+          "17d501ade9f2491c924e3d22489e986f"
+        ],
+        "Left": 1423.2100804425404,
+        "Top": 160.94463551299731,
+        "Width": 318.86792452830184,
+        "Height": 601.433962264151,
+        "FontSize": 36.0,
+        "InitialTop": 214.41633362620485,
+        "InitialHeight": 577.96226415094338,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "9d2b972a550346e19a582d03d43f296a",
+        "Title": "Blue",
+        "Nodes": [
+          "4b783cb5788844a5953c420333854fdb"
+        ],
+        "Left": 951.85405671221645,
+        "Top": 163.39647716594612,
+        "Width": 232.83018867924528,
+        "Height": 97.886792452830178,
+        "FontSize": 36.0,
+        "InitialTop": 216.86817527915366,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FF48B9FF"
+      },
+      {
+        "Id": "8cf8340c9a6f4aa4944ad6b940a1fc0b",
+        "Title": "Olive",
+        "Nodes": [
+          "165a146dc80544f4a212bdc1355e66fe"
+        ],
+        "Left": 951.323310094112,
+        "Top": 333.22599621612414,
+        "Width": 233.73584905660377,
+        "Height": 97.886792452830178,
+        "FontSize": 36.0,
+        "InitialTop": 386.69769432933168,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "e547c45ac89d4f6785faccd34bd87db7",
+        "Title": "Gray",
+        "Nodes": [
+          "d0835b6c3abd4d18a043dee532d6dd06"
+        ],
+        "Left": 1070.2680060016132,
+        "Top": 488.57569162593489,
+        "Width": 119.62264150943396,
+        "Height": 97.886792452830178,
+        "FontSize": 36.0,
+        "InitialTop": 542.04738973914243,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FFB5B5B5"
+      },
+      {
+        "Id": "4985729eed97463faea9828aaed8338d",
+        "Title": "Light Pink",
+        "Nodes": [
+          "044fec8f9f204001afc6fa912cc371ff"
+        ],
+        "Left": 1201.6248705436933,
+        "Top": 163.49152559097803,
+        "Width": 196.60377358490564,
+        "Height": 97.886792452830178,
+        "FontSize": 36.0,
+        "InitialTop": 216.96322370418557,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 43.471698113207545,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "68b57a605253471a8abe5d504d011a0c",
+        "Title": "Light Purple",
+        "Nodes": [
+          "55e791c2690849049479b384623dc860"
+        ],
+        "Left": 1206.5427442813807,
+        "Top": 292.33217416519074,
+        "Width": 177.58490566037736,
+        "Height": 140.45283018867926,
+        "FontSize": 36.0,
+        "InitialTop": 388.36991001424735,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 86.0377358490566,
+        "Background": "#FFD4B6DB"
+      },
+      {
+        "Id": "8d3a82db047644b095cb6ba3b8f820f9",
+        "Title": "Light Orange",
+        "Nodes": [
+          "d1058ad4d5614a618fdb753a8bbec54f"
+        ],
+        "Left": 1207.3802705866385,
+        "Top": 443.54601764962763,
+        "Width": 128.37333333333333,
+        "Height": 140.45283018867926,
+        "FontSize": 36.0,
+        "InitialTop": 539.58375349868425,
+        "InitialHeight": 74.415094339622641,
+        "TextblockHeight": 86.0377358490566,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "c5fcb5fb480a4fef91980b7bbe9774c1",
+        "Title": "DESIGN SCRIPTS STANDARDS\r\n\r\nAuthor:\t\tIsaac Martínez Chávez\r\nDate Created:\t15 June 2022\r\nDate Updated: \t10 June 2022\r\nVersion:\t\t1.00\r\n\r\n________________________________________________________\r\n\r\nDESIGN SCRIPT GUIDELINES\r\n\r\n1. Color code your blocks according to this guide\r\n\r\n2. Add grouping with name and description\r\n\r\n3. Add notes to explain each critical node process\r\n\r\n4. Rename Input/Output/Code Blocks nodes and suffix to data they carry\r\n\r\n5. Align nodes to make it neat\r\n\r\n6. Save the script as Manual Mode instead of Automatic\r\n\r\n7. Keep the script info updates",
+        "Nodes": [],
+        "Left": 628.4197455103747,
+        "Top": 216.72251091426853,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "17d501ade9f2491c924e3d22489e986f",
+        "Title": "Revit Version:\t\tRevit 2020.2\r\nDynamo Version:\t\t2.2.1.15696\r\n\r\n________________________________________________________\r\n\r\nPackages used:\t\tN/A\r\nCustom nodes used:\tN/A\r\n\r\n________________________________________________________\r\n\r\nScript Function:\t\t\r\n\r\n1. Add a brief description of this Scritp's function\r\n2. Add as many lines as necesary to explain.\r\n3. ...\r\n\r\n________________________________________________________\r\n\r\nCreate by:\t\tIsaac Martínez Chávez\r\n\t\tisaac.martinezch@outlook.com\r\n\r\nDate created:\t\t15/06/2022\r\n\r\nUpdated by:\t\tIsaac Martínez Chávez\r\n\t\tisaac.martinezch@outlook.com\r\n\r\nDate updated:\t\t15/06/2022\r\n\r\n________________________________________________________\r\n\r\nAdditional Credits:\r\n\r\nGive credits and references to original code if you use someone else's work.\r\n\r\n",
+        "Nodes": [],
+        "Left": 1433.2100804425404,
+        "Top": 214.41633362620485,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "4b783cb5788844a5953c420333854fdb",
+        "Title": "User Selections, Settings, and credits",
+        "Nodes": [],
+        "Left": 961.85405671221645,
+        "Top": 216.86817527915366,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "165a146dc80544f4a212bdc1355e66fe",
+        "Title": "Discover and retrieval of information",
+        "Nodes": [],
+        "Left": 961.323310094112,
+        "Top": 386.69769432933168,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "d0835b6c3abd4d18a043dee532d6dd06",
+        "Title": "Procesing Data",
+        "Nodes": [],
+        "Left": 1080.2680060016132,
+        "Top": 542.04738973914243,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "044fec8f9f204001afc6fa912cc371ff",
+        "Title": "Creating Elements in Dynamo",
+        "Nodes": [],
+        "Left": 1211.6248705436933,
+        "Top": 216.96322370418557,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "55e791c2690849049479b384623dc860",
+        "Title": "Creating Elements in Revit",
+        "Nodes": [],
+        "Left": 1216.5427442813807,
+        "Top": 388.36991001424735,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "d1058ad4d5614a618fdb753a8bbec54f",
+        "Title": "Writing Data",
+        "Nodes": [],
+        "Left": 1217.3802705866385,
+        "Top": 539.58375349868425,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": -414.06019599532556,
+    "Y": -89.435201550733154,
+    "Zoom": 1.0
+  }
+}
